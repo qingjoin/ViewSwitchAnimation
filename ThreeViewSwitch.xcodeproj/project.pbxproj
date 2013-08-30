@@ -21,6 +21,12 @@
 		CC6620CF17D03BA4009E271D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6620B117D03BA3009E271D /* UIKit.framework */; };
 		CC6620D717D03BA4009E271D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC6620D517D03BA4009E271D /* InfoPlist.strings */; };
 		CC6620D917D03BA4009E271D /* ThreeViewSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6620D817D03BA4009E271D /* ThreeViewSwitchTests.m */; };
+		CC6620E317D04032009E271D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6620E217D04032009E271D /* QuartzCore.framework */; };
+		CC6620E817D04771009E271D /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6620E617D04771009E271D /* TwoViewController.m */; };
+		CC6620E917D04771009E271D /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6620E717D04771009E271D /* TwoViewController.xib */; };
+		CC6620ED17D04793009E271D /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6620EB17D04793009E271D /* ThreeViewController.m */; };
+		CC6620EE17D04793009E271D /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6620EC17D04793009E271D /* ThreeViewController.xib */; };
+		CC6620F217D06539009E271D /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6620F017D063E6009E271D /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,16 @@
 		CC6620D417D03BA4009E271D /* ThreeViewSwitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeViewSwitchTests-Info.plist"; sourceTree = "<group>"; };
 		CC6620D617D03BA4009E271D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC6620D817D03BA4009E271D /* ThreeViewSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewSwitchTests.m; sourceTree = "<group>"; };
+		CC6620E217D04032009E271D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CC6620E517D04771009E271D /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		CC6620E617D04771009E271D /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		CC6620E717D04771009E271D /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		CC6620EA17D04793009E271D /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		CC6620EB17D04793009E271D /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		CC6620EC17D04793009E271D /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		CC6620EF17D063E6009E271D /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		CC6620F017D063E6009E271D /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		CC6620F117D063E6009E271D /* FourViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6620E317D04032009E271D /* QuartzCore.framework in Frameworks */,
 				CC6620B017D03BA3009E271D /* CoreGraphics.framework in Frameworks */,
 				CC6620B217D03BA3009E271D /* UIKit.framework in Frameworks */,
 				CC6620AE17D03BA3009E271D /* Foundation.framework in Frameworks */,
@@ -101,6 +118,7 @@
 		CC6620AC17D03BA3009E271D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC6620E217D04032009E271D /* QuartzCore.framework */,
 				CC6620AD17D03BA3009E271D /* Foundation.framework */,
 				CC6620AF17D03BA3009E271D /* CoreGraphics.framework */,
 				CC6620B117D03BA3009E271D /* UIKit.framework */,
@@ -117,6 +135,15 @@
 				CC6620BF17D03BA3009E271D /* Main.storyboard */,
 				CC6620C217D03BA4009E271D /* ViewController.h */,
 				CC6620C317D03BA4009E271D /* ViewController.m */,
+				CC6620E517D04771009E271D /* TwoViewController.h */,
+				CC6620E617D04771009E271D /* TwoViewController.m */,
+				CC6620E717D04771009E271D /* TwoViewController.xib */,
+				CC6620EA17D04793009E271D /* ThreeViewController.h */,
+				CC6620EB17D04793009E271D /* ThreeViewController.m */,
+				CC6620EC17D04793009E271D /* ThreeViewController.xib */,
+				CC6620EF17D063E6009E271D /* FourViewController.h */,
+				CC6620F017D063E6009E271D /* FourViewController.m */,
+				CC6620F117D063E6009E271D /* FourViewController.xib */,
 				CC6620C517D03BA4009E271D /* Images.xcassets */,
 				CC6620B417D03BA3009E271D /* Supporting Files */,
 			);
@@ -231,6 +258,8 @@
 				CC6620C617D03BA4009E271D /* Images.xcassets in Resources */,
 				CC6620B817D03BA3009E271D /* InfoPlist.strings in Resources */,
 				CC6620C117D03BA3009E271D /* Main.storyboard in Resources */,
+				CC6620EE17D04793009E271D /* ThreeViewController.xib in Resources */,
+				CC6620E917D04771009E271D /* TwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6620F217D06539009E271D /* FourViewController.m in Sources */,
 				CC6620C417D03BA4009E271D /* ViewController.m in Sources */,
 				CC6620BE17D03BA3009E271D /* AppDelegate.m in Sources */,
 				CC6620BA17D03BA3009E271D /* main.m in Sources */,
+				CC6620E817D04771009E271D /* TwoViewController.m in Sources */,
+				CC6620ED17D04793009E271D /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

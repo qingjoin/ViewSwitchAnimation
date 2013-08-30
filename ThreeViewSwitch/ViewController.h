@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import "TwoViewController.h"
+#import "ThreeViewController.h"
+#import "FourViewController.h"
+
 
 @interface ViewController : UIViewController
+{
+    TwoViewController *_twoView;
+    ThreeViewController *_threeView;
+    FourViewController *_fourView;
+    
+    
+}
+- (IBAction)testBtnPress:(id)sender;
 
 @end
