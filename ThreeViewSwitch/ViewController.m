@@ -22,7 +22,7 @@
     [self.view addGestureRecognizer:panGes];
     
     //[_threeView.view addGestureRecognizer:panGes];
-    
+    //file
     [self testBtnPress:nil];
 	// Do any additional setup after loading the view, typically from a nib.
 }

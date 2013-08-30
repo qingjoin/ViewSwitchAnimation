@@ -49,7 +49,7 @@
     //animation.fromValue = [NSNumber numberWithFloat:0.09];
     animation.toValue = [NSNumber numberWithFloat:0];
     animation.duration = 1.0;
-    
+     
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDelegate:self];
     [UIView setAnimationDidStopSelector:@selector(hideAnimationStopped)];
